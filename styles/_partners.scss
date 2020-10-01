@@ -1,0 +1,25 @@
+.partners{
+    background-blend-mode: multiply;
+    background-color: rgba(128, 128, 128, 0.795);
+    background-image: url('../Main/Partners/background.png');
+    height: 490px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.partners-container{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  
+}
+.partners-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.partners-logo{
+    object-fit: contain;
+}

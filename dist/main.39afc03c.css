@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Monsterrat Light;
+  /* Гарнитура шрифта */
+  src: url(/Montserrat-Light.27c236d2.ttf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: Raleway Regular;
+  /* Гарнитура шрифта */
+  src: url(/Raleway-Regular.6171421b.ttf);
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header {
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.header .logo {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+}
+.header .logo img {
+  height: 56px;
+  width: 181px;
+  object-fit: contain;
+}
+.header .nav .search-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  list-style: none;
+}
+.header .nav .search-nav ul li {
+  padding: 10px;
+}
+.header .nav .search-nav ul li a img {
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
+}
+.header .nav .main-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: end;
+  list-style: none;
+}
+.header .nav .main-nav ul li {
+  padding: 10px;
+}
+.header .nav .main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14pt;
+  font-family: Monsterrat Light;
+  letter-spacing: 0.01em;
+}
+.header .nav .main-nav ul li a:hover {
+  color: #c7b299;
+}
+
+.first-section {
+  background-blend-mode: multiply;
+  background-color: gray;
+  background-image: url("/firstsection.881bad9d.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=/main.39afc03c.css.map */

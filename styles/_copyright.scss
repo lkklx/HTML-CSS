@@ -1,0 +1,11 @@
+.copyright{
+    background-image: url('../Footer/Copyright/background.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 111px;
+    .nav-item:not(:first-child)  {
+        border-left: 1px solid white;
+        padding: 4px 10px;
+    }
+}

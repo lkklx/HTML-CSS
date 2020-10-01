@@ -1,0 +1,52 @@
+.waxom{
+    background-image: url('../Main/ThirdSection/background.png');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+.waxcom-text,.waxcom-header{
+    text-align: center;
+    
+}
+.waxcom-text{
+    font-family: Monsterrat Light;
+}
+.waxcom-header{
+    font-family:Raleway-SemiBold;
+    font-size: 33pt;
+    padding:40px 10px;
+}
+.waxcom-images{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center; 
+    align-content: space-around; 
+    
+    position: absolute;
+    bottom: 0;
+   
+}
+.back-images{
+    display:flex; 
+    flex-wrap:nowrap; 
+    justify-content: center; 
+    padding-top:82px;
+    img{
+        vertical-align: middle;
+        border-style: none;
+    }
+
+}
+.front-image{   
+   
+    position: absolute;
+    vertical-align: middle;
+    border-style: none;
+   
+}

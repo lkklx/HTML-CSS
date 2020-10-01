@@ -1,0 +1,93 @@
+.slider{
+    background-blend-mode: multiply;
+    background-color: rgb(128, 128, 128);
+    background-image:url('../Main/FirstSection/firstsection.png');
+    
+      height: 100vh;
+      background-repeat: no-repeat;
+      background-position:center;
+      background-size: cover;
+
+      display: flex;
+      align-items: center;
+      
+}
+
+
+.slide-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;;
+  height: 700px;
+ 
+  .slide-header2{
+    font-family: Raleway-ExtraBold;
+    font-size: 52pt;
+    color: white;
+    padding-bottom: 20px;
+  }
+  .slide-header1{
+    font-family:  Raleway-Medium;
+    font-size: 36pt;
+    color: white;
+    padding-bottom: 10px;
+  }
+  .slide-text{
+    font-family: Monsterrat Light;
+    font-size: 16pt;
+    color: white;
+    padding-bottom: 40px;
+  }
+ 
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 20px;
+  width: auto;
+
+}
+.carousel-indicators li,
+.carousel-indicators li.active {
+  height: 15px;
+  width: 15px;
+  border: 1px;
+  border-radius: 50%;
+  
+}
+.carousel-indicators li{
+  background: rgba(255,255,255,0.39);
+}
+.carousel-indicators li.active {
+  background:transparent;
+  border: 2px solid white;
+
+}
+
+
+
+
+
+.carousel-control-prev-left-icon{
+  object-fit: contain;
+  background-image: url('../Main/FirstSection/leftarrow.png');
+  width: 40px;
+  height: 73px;
+} 
+.carousel-control-next-icon{
+  object-fit: contain;
+  background-image: url('../Main/FirstSection/rightarrow.png');
+  width: 40px;
+  height: 73px;
+}
+
+.slider-container{
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+ 
+}

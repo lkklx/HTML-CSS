@@ -1,0 +1,640 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Monsterrat Light;
+  /* Гарнитура шрифта */
+  src: url(/Montserrat-Light.3e6bbbaa.ttf);
+  /* Путь к файлу со шрифтом */
+}
+@font-face {
+  font-family: Montserrat ExtraLight;
+  /* Гарнитура шрифта */
+  src: url(/Montserrat-ExtraLight.2e8345c4.ttf);
+}
+@font-face {
+  font-family: Raleway ExtraBold;
+  /* Гарнитура шрифта */
+  src: url(/Raleway-ExtraBold.697e3c27.ttf);
+}
+@font-face {
+  font-family: Raleway Regular;
+  /* Гарнитура шрифта */
+  src: url(/Raleway-Regular.67a817d1.ttf);
+}
+@font-face {
+  font-family: Raleway-Medium;
+  /* Гарнитура шрифта */
+  src: url(/Raleway-Medium.a96feea1.ttf);
+}
+@font-face {
+  font-family: Raleway-SemiBold;
+  /* Гарнитура шрифта */
+  src: url(/Raleway-SemiBold.48dafb5e.ttf);
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.header {
+  padding: 15px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+.header .logo {
+  display: flex;
+  justify-content: left;
+  align-content: center;
+}
+.header .logo img {
+  height: 56px;
+  width: 181px;
+  object-fit: contain;
+}
+.header .nav .search-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  list-style: none;
+}
+.header .nav .search-nav ul li {
+  padding: 10px;
+}
+.header .nav .search-nav ul li a img {
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
+}
+.header .nav .main-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: end;
+  list-style: none;
+}
+.header .nav .main-nav ul li {
+  padding: 10px;
+}
+.header .nav .main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  font-family: Monsterrat Light;
+  letter-spacing: 0.01em;
+}
+.header .nav .main-nav ul li a:hover {
+  color: #c7b299;
+}
+
+.counters {
+  height: 300px;
+  background-image: url("/background.225a11f5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.count-cont {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.counters-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card-second .counters-image {
+  object-fit: contain;
+}
+.card-second .count-number {
+  font-family: Montserrat ExtraLight;
+  font-size: 48pt;
+  color: white;
+  padding: 5px;
+}
+.card-second .count-line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+  font-family: Monsterrat Light;
+  font-size: 14pt;
+  color: #988672;
+  padding: 5px;
+}
+.card-second .count-line::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: white;
+  margin-top: 20px;
+}
+
+.slider {
+  background-blend-mode: multiply;
+  background-color: gray;
+  background-image: url("/firstsection.881bad9d.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.slide-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 700px;
+}
+.slide-text-container .slide-header2 {
+  font-family: Raleway-ExtraBold;
+  font-size: 52pt;
+  color: white;
+  padding-bottom: 20px;
+}
+.slide-text-container .slide-header1 {
+  font-family: Raleway-Medium;
+  font-size: 36pt;
+  color: white;
+  padding-bottom: 10px;
+}
+.slide-text-container .slide-text {
+  font-family: Monsterrat Light;
+  font-size: 16pt;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 20px;
+  width: auto;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+  height: 15px;
+  width: 15px;
+  border: 1px;
+  border-radius: 50%;
+}
+
+.carousel-indicators li {
+  background: rgba(255, 255, 255, 0.39);
+}
+
+.carousel-indicators li.active {
+  background: transparent;
+  border: 2px solid white;
+}
+
+.carousel-control-prev-left-icon {
+  object-fit: contain;
+  background-image: url("/leftarrow.4cfb32f1.png");
+  width: 40px;
+  height: 73px;
+}
+
+.carousel-control-next-icon {
+  object-fit: contain;
+  background-image: url("/rightarrow.25a40c57.png");
+  width: 40px;
+  height: 73px;
+}
+
+.slider-container {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+
+.waxom {
+  background-image: url("/background.633885dd.png");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+}
+
+.waxcom-text, .waxcom-header {
+  text-align: center;
+}
+
+.waxcom-text {
+  font-family: Monsterrat Light;
+}
+
+.waxcom-header {
+  font-family: Raleway-SemiBold;
+  font-size: 33pt;
+  padding: 40px 10px;
+}
+
+.waxcom-images {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-around;
+  position: absolute;
+  bottom: 0;
+}
+
+.back-images {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 82px;
+}
+.back-images img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.front-image {
+  position: absolute;
+  vertical-align: middle;
+  border-style: none;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.text-boxes {
+  background-image: url("/background.4b151480.png");
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.text .text-boxes-header {
+  display: flex;
+  font-family: Raleway Regular;
+  font-size: 28pt;
+  color: white;
+  padding-bottom: 3px;
+}
+.text .text-boxes-header .yellow-text {
+  padding-right: 2px;
+  color: #bfab93;
+}
+.text .text-boxes-main-text {
+  font-family: Monsterrat Light;
+  font-size: 18pt;
+  color: #5c524f;
+}
+
+.text-boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.latest-projects {
+  height: 1165px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0;
+}
+
+.latest-projects-text {
+  text-align: center;
+}
+.latest-projects-text .latest-projects-text-header {
+  font-family: Raleway-SemiBold;
+  font-size: 30pt;
+  color: #555555;
+  padding: 40px 20px;
+}
+.latest-projects-text .latest-projects-text-main-text {
+  color: #555555;
+  font-family: Montserrat Light;
+  font-size: 16pt;
+}
+
+.text-buttons {
+  margin: 0 3px 0;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 10%;
+}
+
+.text-buttons:active {
+  background-color: #998675;
+}
+
+.card {
+  width: 370px;
+  margin: 5px;
+}
+.card .main-image {
+  width: 370px;
+  height: 237px;
+}
+
+.card-img-top {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  background: #fbfaf8;
+}
+.card-body .ligtht-text {
+  color: #c7b299;
+}
+.card-body .dark-text {
+  color: #d1d1d1;
+}
+
+.icons-container {
+  position: absolute;
+}
+.icons-container .icons {
+  visibility: hidden;
+}
+.icons-container .icons:hover {
+  filter: invert(0.4) sepia(1);
+}
+
+.card:hover .main-image {
+  filter: contrast(60%);
+}
+.card:hover .card-body {
+  background: #362f2d;
+}
+.card:hover .card-body .dark-text {
+  color: #c7b299;
+}
+.card:hover .card-body .ligtht-text {
+  color: #d1d1d1;
+}
+.card:hover .icons {
+  visibility: visible;
+}
+
+.video-presentation {
+  background-blend-mode: multiply;
+  background-color: rgba(128, 128, 128, 0.795);
+  background-image: url("/background.52492797.png");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.excellent-for {
+  background-image: url("/background.260a789b.png");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+.ex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.ex-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.excellent-header {
+  font-family: Raleway-SemiBold;
+  font-size: 30pt;
+  color: #656464;
+  margin-bottom: 20px;
+}
+
+.excellent-main-text {
+  font-family: Monsterrat Light;
+  font-size: 16pt;
+  color: #656464;
+  margin-bottom: 20px;
+}
+
+.excellent-text {
+  display: flex;
+  flex-direction: column;
+}
+.excellent-text .list-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.excellent-text .list-text p {
+  margin: 0 0 10px 15px;
+}
+
+.recent-posts {
+  height: 750px;
+}
+
+.partners {
+  background-blend-mode: multiply;
+  background-color: rgba(128, 128, 128, 0.795);
+  background-image: url("/background.40b68f78.png");
+  height: 490px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.partners-container {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.partners-row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.partners-logo {
+  object-fit: contain;
+}
+
+.services {
+  height: 375px;
+  display: flex;
+  align-items: center;
+}
+
+.services-row {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.s2img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.card-second {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  padding: 2px;
+}
+.card-second .services-text {
+  font-family: Raleway-SemiBold;
+  font-size: 22pt;
+  padding: 10px 10px;
+}
+
+.card-second .line {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+  font-family: Monsterrat Light;
+  font-size: 14pt;
+}
+
+.card-second .line::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: gray;
+  margin-top: 20px;
+}
+
+.card-second:hover .services-text {
+  color: #c7b299;
+}
+
+.card-second:hover .line::after {
+  background: #c7b299;
+}
+
+.footer {
+  background-image: url("/backround.10131763.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 508px;
+}
+
+.copyright {
+  background-image: url("/background.8df9b1c6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 111px;
+}
+.copyright .nav-item:not(:first-child) {
+  border-left: 1px solid white;
+  padding: 4px 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-buttons {
+  height: 50px;
+  width: 170px;
+  background-image: url("/mainbutton.ae6e96a0.png");
+  font-family: Raleway ExtraBold;
+  color: white;
+}
+
+/*# sourceMappingURL=/main.48b3db1d.css.map */

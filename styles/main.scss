@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Monsterrat Light;
+    /* Гарнитура шрифта */
+    src: url(./Montserrat-Light.ttf);
+    /* Путь к файлу со шрифтом */
+  }  
+  @font-face {
+    font-family: Montserrat ExtraLight;
+    /* Гарнитура шрифта */
+    src: url(./Montserrat-ExtraLight.ttf)
+      /* Путь к файлу со шрифтом */
+      /*c7b299*/
+  } 
+
+
+  @font-face {
+    font-family: Raleway ExtraBold;
+    /* Гарнитура шрифта */
+    src: url(./Raleway-ExtraBold.ttf)
+      /* Путь к файлу со шрифтом */
+      /*c7b299*/
+  } 
+  @font-face {
+    font-family: Raleway Regular;
+    /* Гарнитура шрифта */
+    src: url(./Raleway-Regular.ttf)
+      /* Путь к файлу со шрифтом */
+      /*c7b299*/
+  } 
+  @font-face {
+    font-family: Raleway-Medium;
+    /* Гарнитура шрифта */
+    src: url(./Raleway-Medium.ttf)
+      /* Путь к файлу со шрифтом */
+      /*c7b299*/
+  } 
+  @font-face {
+    font-family: Raleway-SemiBold;
+    /* Гарнитура шрифта */
+    src: url(./Raleway-SemiBold.ttf)
+      /* Путь к файлу со шрифтом */
+      /*c7b299*/
+  } 
+  @import "header";
+
+  @import "counters";
+  @import "slider";
+  @import "waxom";
+  @import "reset";
+  @import "text-boxes";
+  @import "latest-projects";
+  @import "video-presentation";
+  @import "excellent-for";
+  @import "recent-posts";
+  @import "partners";
+  @import "services";
+
+  @import "footer";
+  @import "copyright";
+
+
+  *{box-sizing: border-box;}
+  
+  .main-buttons{
+    height: 50px;
+    width: 170px;
+    background-image: url('../Main/mainbutton.png');
+    font-family:Raleway ExtraBold;
+    color: white;
+    }
+    
+
+

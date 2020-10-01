@@ -1,0 +1,46 @@
+.excellent-for{
+    background-image: url('../Main/ExcellentFor/background.png');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+}
+.ex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+.ex-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.excellent-header{
+    font-family: Raleway-SemiBold;
+    font-size: 30pt;
+    color: #656464;
+    margin-bottom: 20px;
+}
+.excellent-main-text{
+    font-family: Monsterrat Light;
+    font-size: 16pt;
+    color: #656464;
+    margin-bottom: 20px;
+}
+
+.excellent-text{
+display: flex;
+flex-direction: column;
+    .list-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{
+            margin: 0 0 10px 15px;
+        }
+    }
+}
